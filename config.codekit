@@ -154,288 +154,299 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-144x144.png": {
+	"\/img\/favicons\/android-chrome-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18856,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-144x144.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-144x144.png",
+		"initialSize": 2431,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-144x144.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-192x192.png": {
+	"\/img\/favicons\/android-chrome-192x192.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30170,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-192x192.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-192x192.png",
+		"initialSize": 2983,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-192x192.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-192x192.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-36x36.png": {
+	"\/img\/favicons\/android-chrome-36x36.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2948,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-36x36.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-36x36.png",
+		"initialSize": 1092,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-36x36.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-36x36.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-48x48.png": {
+	"\/img\/favicons\/android-chrome-48x48.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4175,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-48x48.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-48x48.png",
+		"initialSize": 1302,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-48x48.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-48x48.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-72x72.png": {
+	"\/img\/favicons\/android-chrome-72x72.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7071,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-72x72.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-72x72.png",
+		"initialSize": 1566,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-72x72.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/android-chrome-96x96.png": {
+	"\/img\/favicons\/android-chrome-96x96.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10279,
-		"inputAbbreviatedPath": "\/img\/favicon\/android-chrome-96x96.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/android-chrome-96x96.png",
+		"initialSize": 1827,
+		"inputAbbreviatedPath": "\/img\/favicons\/android-chrome-96x96.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/android-chrome-96x96.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-114x114.png": {
+	"\/img\/favicons\/apple-touch-icon-114x114.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11385,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-114x114.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-114x114.png",
+		"initialSize": 2048,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-114x114.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-114x114.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-120x120.png": {
+	"\/img\/favicons\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11923,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-120x120.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-120x120.png",
+		"initialSize": 2171,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-144x144.png": {
+	"\/img\/favicons\/apple-touch-icon-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 15259,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-144x144.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-144x144.png",
+		"initialSize": 2468,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-144x144.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-152x152.png": {
+	"\/img\/favicons\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16553,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-152x152.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-152x152.png",
+		"initialSize": 2541,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-180x180.png": {
+	"\/img\/favicons\/apple-touch-icon-180x180.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19803,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-180x180.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-180x180.png",
+		"initialSize": 2828,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-180x180.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-180x180.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-57x57.png": {
+	"\/img\/favicons\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5168,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-57x57.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-57x57.png",
+		"initialSize": 1402,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-60x60.png": {
+	"\/img\/favicons\/apple-touch-icon-60x60.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5517,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-60x60.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-60x60.png",
+		"initialSize": 1467,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-60x60.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-60x60.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-72x72.png": {
+	"\/img\/favicons\/apple-touch-icon-72x72.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6793,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-72x72.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-72x72.png",
+		"initialSize": 1613,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-72x72.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-76x76.png": {
+	"\/img\/favicons\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7222,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-76x76.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-76x76.png",
+		"initialSize": 1664,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon-precomposed.png": {
+	"\/img\/favicons\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19394,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-precomposed.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon-precomposed.png",
+		"initialSize": 3376,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-precomposed.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon-precomposed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/apple-touch-icon.png": {
+	"\/img\/favicons\/apple-touch-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19803,
-		"inputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/apple-touch-icon.png",
+		"initialSize": 2828,
+		"inputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/favicon-16x16.png": {
+	"\/img\/favicons\/favicon-16x16.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1541,
-		"inputAbbreviatedPath": "\/img\/favicon\/favicon-16x16.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/favicon-16x16.png",
+		"initialSize": 892,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-16x16.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-16x16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/favicon-32x32.png": {
+	"\/img\/favicons\/favicon-194x194.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2532,
-		"inputAbbreviatedPath": "\/img\/favicon\/favicon-32x32.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/favicon-32x32.png",
+		"initialSize": 3993,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-194x194.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-194x194.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/favicon-96x96.png": {
+	"\/img\/favicons\/favicon-32x32.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10279,
-		"inputAbbreviatedPath": "\/img\/favicon\/favicon-96x96.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/favicon-96x96.png",
+		"initialSize": 1383,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-32x32.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-32x32.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/manifest.json": {
+	"\/img\/favicons\/favicon-96x96.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2537,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-96x96.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-96x96.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/manifest.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/img\/favicon\/manifest.json",
+		"inputAbbreviatedPath": "\/img\/favicons\/manifest.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/img\/favicon\/manifest-min.json",
+		"outputAbbreviatedPath": "\/img\/favicons\/manifest-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/img\/favicon\/mstile-144x144.png": {
+	"\/img\/favicons\/mstile-144x144.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8484,
-		"inputAbbreviatedPath": "\/img\/favicon\/mstile-144x144.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/mstile-144x144.png",
+		"initialSize": 2969,
+		"inputAbbreviatedPath": "\/img\/favicons\/mstile-144x144.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/mstile-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/mstile-150x150.png": {
+	"\/img\/favicons\/mstile-150x150.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8164,
-		"inputAbbreviatedPath": "\/img\/favicon\/mstile-150x150.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/mstile-150x150.png",
+		"initialSize": 2992,
+		"inputAbbreviatedPath": "\/img\/favicons\/mstile-150x150.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/mstile-150x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/mstile-310x150.png": {
+	"\/img\/favicons\/mstile-310x150.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8873,
-		"inputAbbreviatedPath": "\/img\/favicon\/mstile-310x150.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/mstile-310x150.png",
+		"initialSize": 3300,
+		"inputAbbreviatedPath": "\/img\/favicons\/mstile-310x150.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/mstile-310x150.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/mstile-310x310.png": {
+	"\/img\/favicons\/mstile-310x310.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 18752,
-		"inputAbbreviatedPath": "\/img\/favicon\/mstile-310x310.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/mstile-310x310.png",
+		"initialSize": 5513,
+		"inputAbbreviatedPath": "\/img\/favicons\/mstile-310x310.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/mstile-310x310.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/favicon\/mstile-70x70.png": {
+	"\/img\/favicons\/mstile-70x70.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5819,
-		"inputAbbreviatedPath": "\/img\/favicon\/mstile-70x70.png",
-		"outputAbbreviatedPath": "\/img\/favicon\/mstile-70x70.png",
+		"initialSize": 2446,
+		"inputAbbreviatedPath": "\/img\/favicons\/mstile-70x70.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/mstile-70x70.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -469,6 +480,17 @@
 		"initialSize": 380,
 		"inputAbbreviatedPath": "\/img\/icon-user.png",
 		"outputAbbreviatedPath": "\/img\/icon-user.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/icon.png",
+		"outputAbbreviatedPath": "\/img\/icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -511,6 +533,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index-carousel.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -752,7 +783,7 @@
 		"outputAbbreviatedPath": "\/js\/site.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
 	"\/js\/site.min.js": {

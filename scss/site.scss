@@ -31,7 +31,7 @@
 // =Fonts & Bootstrap
 // --------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700|Poppins:300,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700|Poppins:300,700,800|Great+Vibes');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 @import 'icomoon';
 @import 'mdc-class';
@@ -688,10 +688,8 @@ $custom-min-height: 37.5em; // 600
 .jumbotron {
   padding-top: 7rem;
   margin-bottom: 0;
-  // background: #663fb5 url(../img/bg-header.jpg) no-repeat center bottom;
-  // background: $suflyka-bg;
-  background: none;
-  background-size: cover;
+
+  background: linear-gradient(to bottom, rgba(#663fb5, .25) 0%, rgba($suflyka-bg, 0) 100%);
   border-radius: 0;
 
   @include media-breakpoint-down(sm) {
@@ -1875,6 +1873,4 @@ $linkedin: #0077b5;
 // Quotes
 
 section.section-quote {
-  padding-top: 10rem;
-  padding-bottom: 20rem;
 }

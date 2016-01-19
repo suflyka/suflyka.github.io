@@ -8,57 +8,58 @@ html(lang='en')
     meta(name='description', content='Suflyka by Hafiz Hamidun')
     meta(name='keywords', content='Suflyka, Hafiz Hamidun')
     meta(name='author', content='@wansaleh')
-    link(rel='apple-touch-icon', sizes='57x57', href='img/favicon/apple-touch-icon-57x57.png')
-    link(rel='apple-touch-icon', sizes='60x60', href='img/favicon/apple-touch-icon-60x60.png')
-    link(rel='apple-touch-icon', sizes='72x72', href='img/favicon/apple-touch-icon-72x72.png')
-    link(rel='apple-touch-icon', sizes='76x76', href='img/favicon/apple-touch-icon-76x76.png')
-    link(rel='apple-touch-icon', sizes='114x114', href='img/favicon/apple-touch-icon-114x114.png')
-    link(rel='apple-touch-icon', sizes='120x120', href='img/favicon/apple-touch-icon-120x120.png')
-    link(rel='apple-touch-icon', sizes='144x144', href='img/favicon/apple-touch-icon-144x144.png')
-    link(rel='apple-touch-icon', sizes='152x152', href='img/favicon/apple-touch-icon-152x152.png')
-    link(rel='apple-touch-icon', sizes='180x180', href='img/favicon/apple-touch-icon-180x180.png')
-    link(rel='icon', type='image/png', href='img/favicon/favicon-32x32.png', sizes='32x32')
-    link(rel='icon', type='image/png', href='img/favicon/android-chrome-192x192.png', sizes='192x192')
-    link(rel='icon', type='image/png', href='img/favicon/favicon-96x96.png', sizes='96x96')
-    link(rel='icon', type='image/png', href='img/favicon/favicon-16x16.png', sizes='16x16')
-    link(rel='manifest', href='img/favicon/manifest.json')
-    link(rel='shortcut icon', href='img/favicon/favicon.ico')
-    meta(name='msapplication-TileColor', content='#663fb5')
-    meta(name='msapplication-TileImage', content='img/favicon/mstile-144x144.png')
-    meta(name='msapplication-config', content='img/favicon/browserconfig.xml')
-    meta(name='theme-color', content='#663fb5')
+    
+    //- favicons
+    link(rel='apple-touch-icon', sizes='57x57', href='/img/favicons/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='/img/favicons/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='/img/favicons/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='/img/favicons/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='/img/favicons/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='/img/favicons/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='/img/favicons/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='/img/favicons/apple-touch-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='/img/favicons/apple-touch-icon-180x180.png')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-194x194.png', sizes='194x194')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-96x96.png', sizes='96x96')
+    link(rel='icon', type='image/png', href='/img/favicons/android-chrome-192x192.png', sizes='192x192')
+    link(rel='icon', type='image/png', href='/img/favicons/favicon-16x16.png', sizes='16x16')
+    link(rel='manifest', href='/img/favicons/manifest.json')
+    link(rel='mask-icon', href='/img/favicons/safari-pinned-tab.svg', color='#5bbad5')
+    link(rel='shortcut icon', href='/img/favicons/favicon.ico')
+    meta(name='msapplication-TileColor', content='#da532c')
+    meta(name='msapplication-TileImage', content='/img/favicons/mstile-144x144.png')
+    meta(name='msapplication-config', content='/img/favicons/browserconfig.xml')
+    meta(name='theme-color', content='#ffffff')
+
+    //- stylesheet
     link(rel='stylesheet', href='css/site.css')
   body
+  
+    //- Star header
+    canvas#star
 
     //
       Navigation
       ==================================================
     nav.navbar.navbar-dark.bg-inverse.bg-inverse-custom.navbar-fixed-top
       .container
-        a.navbar-brand.fade-50(href='#')
-          img(src="img/logo-white.svg", alt="", style="height: 30px;")
+        a.navbar-brand(href='/')
+          img(src="img/sbh-white.svg", alt="", style="width: 120px;")
           span.sr-only Suflyka by Hafiz Hamidun
 
     //
       Hero Section
       ==================================================
-    canvas#star
     header.jumbotron.text-xs-center.center-vertically(role='banner')
       .container
 
         .suflyka-by-hh.m-t-8.m-b-8
           h1.display-3
-            img(src="img/logo-kerawang.svg", alt="", style="width: 50%; max-width: 400px;")
+            img(src="img/logo-kerawang-tagline.svg", alt="", style="width: 90%; max-width: 480px;")
             span.sr-only Suflyka by Hafiz Hamidun
 
-          h4.m-t-3.m-b-1.text-white
-            span.fade-25 by
-
-          h6
-            a.fade-on-hover(href="https://hafizhamidun.com")
-              img(src="img/hh-white.svg", alt="", style="width: 220px;")
-              span.sr-only Hafiz Hamidun
-        
+      
         ul.nav.nav-inline.social-share
           li.nav-item
             a.nav-link(href='https://www.facebook.com/suflyka')
@@ -71,7 +72,7 @@ html(lang='en')
 
     //
       Quotes
-    section.section-quote(data-bg-image="/img/bg-2.jpg")
+    section.section-quote.p-t-8.p-b-8
       .container.instagram-quote
         .col-md-6.col-md-offset-3
           blockquote.blockquote.blockquote-reverse.text-white
@@ -81,8 +82,8 @@ html(lang='en')
     //
       Footer
       ==================================================
-    footer.section-footer.bg-white(role='contentinfo')
-      .container
+    footer.section-footer(role='contentinfo')
+      .container.text-white
         .row
           .col-md-10
             .media
