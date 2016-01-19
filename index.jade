@@ -1,0 +1,105 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Suflyka by Hafiz Hamidun
+    meta(name='description', content='Suflyka by Hafiz Hamidun')
+    meta(name='keywords', content='Suflyka, Hafiz Hamidun')
+    meta(name='author', content='@wansaleh')
+    link(rel='apple-touch-icon', sizes='57x57', href='img/favicon/apple-touch-icon-57x57.png')
+    link(rel='apple-touch-icon', sizes='60x60', href='img/favicon/apple-touch-icon-60x60.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='img/favicon/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='76x76', href='img/favicon/apple-touch-icon-76x76.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='img/favicon/apple-touch-icon-114x114.png')
+    link(rel='apple-touch-icon', sizes='120x120', href='img/favicon/apple-touch-icon-120x120.png')
+    link(rel='apple-touch-icon', sizes='144x144', href='img/favicon/apple-touch-icon-144x144.png')
+    link(rel='apple-touch-icon', sizes='152x152', href='img/favicon/apple-touch-icon-152x152.png')
+    link(rel='apple-touch-icon', sizes='180x180', href='img/favicon/apple-touch-icon-180x180.png')
+    link(rel='icon', type='image/png', href='img/favicon/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='img/favicon/android-chrome-192x192.png', sizes='192x192')
+    link(rel='icon', type='image/png', href='img/favicon/favicon-96x96.png', sizes='96x96')
+    link(rel='icon', type='image/png', href='img/favicon/favicon-16x16.png', sizes='16x16')
+    link(rel='manifest', href='img/favicon/manifest.json')
+    link(rel='shortcut icon', href='img/favicon/favicon.ico')
+    meta(name='msapplication-TileColor', content='#663fb5')
+    meta(name='msapplication-TileImage', content='img/favicon/mstile-144x144.png')
+    meta(name='msapplication-config', content='img/favicon/browserconfig.xml')
+    meta(name='theme-color', content='#663fb5')
+    link(rel='stylesheet', href='css/site.css')
+  body
+
+    //
+      Navigation
+      ==================================================
+    nav.navbar.navbar-dark.bg-inverse.bg-inverse-custom.navbar-fixed-top
+      .container
+        a.navbar-brand.fade-50(href='#')
+          img(src="img/logo-white.svg", alt="", style="height: 30px;")
+          span.sr-only Suflyka by Hafiz Hamidun
+
+    //
+      Hero Section
+      ==================================================
+    canvas#star
+    header.jumbotron.text-xs-center.center-vertically(role='banner')
+      .container
+
+        h1.display-3
+          img(src="img/logo-kerawang.svg", alt="", style="width: 50%; max-width: 400px;")
+          span.sr-only Suflyka by Hafiz Hamidun
+
+        h4.m-t-3.m-b-1.text-white
+          span.fade-25 by
+
+        h6
+          a.fade-on-hover(href="https://hafizhamidun.com")
+            img(src="img/hh-white.svg", alt="", style="width: 220px;")
+            span.sr-only Hafiz Hamidun
+        
+        ul.nav.nav-inline.social-share
+          li.nav-item
+            a.nav-link(href='https://www.facebook.com/suflyka')
+              span.fa.fa-facebook
+              span.count.facebook-count
+          li.nav-item
+            a.nav-link(href='https://www.instagram.com/suflyka')
+              span.fa.fa-instagram
+              span.count.instagram-count
+
+    //
+      Quotes
+    section.section-quote(data-bg-image="/img/bg-2.jpg")
+      .container.instagram-quote
+        .col-md-6.col-md-offset-3
+          blockquote.blockquote.blockquote-reverse.text-white
+            p.m-b-0.ig-quote
+            footer.blockquote-footer.ig-quote-footer.text-white.fade-25
+
+    //
+      Footer
+      ==================================================
+    footer.section-footer.bg-white(role='contentinfo')
+      .container
+        .row
+          .col-md-10
+            .media
+              .media-left
+                img(src="img/logo-yellow.svg", alt="", style="height: 38px;")
+              small.media-body.media-bottom
+                span.fade-50 © Suflyka 2016
+                br
+                span
+                  | Handcrafted with 
+                  i.icon-heart.mdc-text-red
+                  |  at 
+                  b Arteffects International
+          .col-md-2
+            ul.nav.nav-inline
+              li.nav-item
+                a.nav-link.scroll-top(href='#totop')
+                  span.icon-caret-up
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+    script(src='js/site.min.js')
