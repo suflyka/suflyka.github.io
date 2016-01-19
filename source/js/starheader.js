@@ -21,7 +21,7 @@
       y: height / 2
     };
 
-    canvas = document.getElementById('star');
+    canvas = $('#star')[0];
     canvas.width = width;
     canvas.height = height;
     ctx = canvas.getContext('2d');
@@ -168,7 +168,7 @@
       ctx.beginPath();
       ctx.moveTo(p.x, p.y);
       ctx.lineTo(p.closest[i].x, p.closest[i].y);
-      ctx.strokeStyle = 'rgba(145, 76, 194,' + p.active + ')';
+      ctx.strokeStyle = 'rgba(200, 76, 194,' + p.active + ')';
       ctx.stroke();
     }
   }
@@ -187,7 +187,7 @@
       if (!_this.active) return;
       ctx.beginPath();
       ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-      ctx.fillStyle = 'rgba(145, 76, 194,' + _this.active + ')';
+      ctx.fillStyle = 'rgba(200, 76, 194,' + _this.active + ')';
       ctx.fill();
     };
   }

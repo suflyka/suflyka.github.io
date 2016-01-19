@@ -31,7 +31,7 @@
 // =Fonts & Bootstrap
 // --------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700|Poppins:300,700,800|Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700|Lato:400,700|Poppins:300,700,800|Kaushan+Script');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
 @import 'icomoon';
 @import 'mdc-class';
@@ -1873,4 +1873,30 @@ $linkedin: #0077b5;
 // Quotes
 
 section.section-quote {
+  .blockquote {
+    font-size: 1.5em;
+    line-height: 1.5;
+    border: 2px solid $suflyka-fg;
+    border-radius: .5em;
+    padding: 1em;
+    background: linear-gradient(to bottom, rgba(#663fb5, .25) 0%, rgba(#663fb5, .15) 100%);
+    overflow: hidden;
+
+    .ig-quote {
+      color: $suflyka-fg;
+      &:before {
+        content: "\"";
+        font-family: "Kaushan Script";
+        font-size: 6em;
+        line-height: 1;
+        position: absolute;
+        left: -.35em;
+        top: .1em;
+      }
+    }
+
+    .ig-quote-footer {
+      color: #fff;
+    }
+  }
 }

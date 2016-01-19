@@ -259,8 +259,8 @@
     $('.instagram-quote').each(function () {
       $.getJSON('//wms-api.herokuapp.com/suflyka/instagram/feed?callback=?', function(data) {
         var arr = data.data[0].caption.text.split(/\n/);
-        var quote = arr[0].replace(/^\s*"|"\s*$/g, '');
-        var cite = arr[1].replace(/^-\s*/, '');
+        var quote = arr[0].replace(/^\s*\"|\"\s*$/g, '');
+        var cite = arr[1].replace(/^-\s*|\s*/g, '');
         $('.ig-quote').text(quote);
         $('.ig-quote-footer').text(cite);
         $(this).addClass('loaded');
