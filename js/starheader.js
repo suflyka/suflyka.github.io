@@ -3,9 +3,12 @@
     var width, height, canvas, ctx, points, target, animateHeader = true;
 
     // Main
-    initHeader();
-    initAnimation();
-    addListeners();
+
+    if ($('body').hasClass('desktop')) {
+      initHeader();
+      initAnimation();
+      addListeners();
+    }
 
     function initHeader() {
         width = window.innerWidth;
