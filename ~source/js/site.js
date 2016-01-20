@@ -307,17 +307,17 @@
 
   function init() {
     setUserOS();
+    setBgImage();
     setUserAgent();
     // onScrollAnimations();
     // inputPlaceholders();
     // navMobileCollapse();
     // navSearch();
     // htmlVideo();
-    scrollToTop();
     // donutChart();
     // videoModal();
+    scrollToTop();
     social();
-    setBgImage();
   }
 
   init();
