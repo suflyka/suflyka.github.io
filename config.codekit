@@ -610,15 +610,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/~source\/css\/_suf.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/~source\/css\/_suf.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/~source\/css\/bootstrap\/_alert.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
