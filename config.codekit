@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/css\/owl\/owl.video.play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4976,
+		"inputAbbreviatedPath": "\/css\/owl\/owl.video.play.png",
+		"outputAbbreviatedPath": "\/css\/owl\/owl.video.play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/site.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1831,6 +1842,33 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/~source\/css\/plugins\/_flickity.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/css\/plugins\/_flickity.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/~source\/css\/plugins\/_owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/css\/plugins\/_owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/~source\/css\/plugins\/_owl.theme.default.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/css\/plugins\/_owl.theme.default.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/~source\/css\/plugins\/_videojs-landio-skin.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -2017,6 +2055,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
+	"\/~source\/js\/plugins\/flickity.pkgd.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/js\/plugins\/flickity.pkgd.min.js",
+		"outputAbbreviatedPath": "\/~source\/js\/plugins\/flickity.pkgd.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
 	"\/~source\/js\/plugins\/jquery.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2030,7 +2079,7 @@
 		},
 	"\/~source\/js\/plugins\/jquery.placeholder.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.placeholder.js",
 		"outputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.placeholder.min.js",
@@ -2052,10 +2101,21 @@
 		},
 	"\/~source\/js\/plugins\/jquery.waypoints.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.waypoints.js",
 		"outputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.waypoints.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/~source\/js\/plugins\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/js\/plugins\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/~source\/js\/plugins\/owl.carousel.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,

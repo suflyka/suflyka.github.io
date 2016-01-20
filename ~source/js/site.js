@@ -11,103 +11,14 @@
   // @codekit-prepend "bootstrap/dropdown.js";
   // @codekit-prepend "bootstrap/modal.js";
 
-  // Waypoints
-  // @codekit-prepend "plugins/jquery.waypoints.js"
-
-  // Placeholders
-  // @codekit-prepend "plugins/jquery.placeholder.js";
-
   // Video JS
   // @ codekit-prepend "plugins/video.js";
 
   // Vimeo modal autoplay
   // @ codekit-prepend "plugins/jquery.vimeo.api.js";
 
-  // Donut Chart
-  // @ codekit-prepend "plugins/chart.js";
-
-  function onScrollAnimations() {
-    $('.wp-1').waypoint(function() {
-      $('.wp-1').addClass('animated fadeInUp');
-    }, {
-      offset: '75%'
-    });
-    $('.wp-2').waypoint(function() {
-      $('.wp-2').addClass('animated fadeInUp');
-    }, {
-      offset: '75%'
-    });
-    $('.wp-3').waypoint(function() {
-      $('.wp-3').addClass('animated fadeInUp');
-    }, {
-      offset: '75%'
-    });
-    $('.wp-4').waypoint(function() {
-      $('.wp-4').addClass('animated fadeIn');
-    }, {
-      offset: '75%'
-    });
-    $('.wp-5').waypoint(function() {
-      $('.wp-5').addClass('animated fadeInRight');
-    }, {
-      offset: '50%'
-    });
-    $('.wp-6').waypoint(function() {
-      $('.wp-6').addClass('animated fadeInLeft');
-    }, {
-      offset: '50%'
-    });
-    $('.wp-7').waypoint(function() {
-      $('.wp-7').addClass('animated fadeInUp');
-    }, {
-      offset: '60%'
-    });
-    $('.wp-8').waypoint(function() {
-      $('.wp-8').addClass('animated fadeInUp');
-    }, {
-      offset: '60%'
-    });
-  }
-
-  function inputPlaceholders() {
-    $('input, textarea').placeholder();
-  }
-
-  function navMobileCollapse() {
-    // avoid having both mobile navs opened at the same time
-    $('#collapsingMobileUser').on('show.bs.collapse', function () {
-      $('#collapsingNavbar').removeClass('in');
-      $('[data-target="#collapsingNavbar"]').attr('aria-expanded', 'false');
-    });
-    $('#collapsingNavbar').on('show.bs.collapse', function () {
-      $('#collapsingMobileUser').removeClass('in');
-      $('[data-target="#collapsingMobileUser"]').attr('aria-expanded', 'false');
-    });
-    // dark navbar
-    $('#collapsingMobileUserInverse').on('show.bs.collapse', function () {
-      $('#collapsingNavbarInverse').removeClass('in');
-      $('[data-target="#collapsingNavbarInverse"]').attr('aria-expanded', 'false');
-    });
-    $('#collapsingNavbarInverse').on('show.bs.collapse', function () {
-      $('#collapsingMobileUserInverse').removeClass('in');
-      $('[data-target="#collapsingMobileUserInverse"]').attr('aria-expanded', 'false');
-    });
-  }
-
-  function navSearch() {
-    // hide first nav items when search is opened
-    $('.nav-dropdown-search').on('show.bs.dropdown', function () {
-      $(this).siblings().not('.navbar-nav .dropdown').addClass('sr-only');
-    })
-    // cursor focus
-    $('.nav-dropdown-search').on('shown.bs.dropdown', function () {
-      $('.navbar-search-input').focus();
-    });
-    // show all nav items when search is closed
-    $('.nav-dropdown-search').on('hide.bs.dropdown', function () {
-      $(this).siblings().removeClass('sr-only');
-    });
-  }
+  // owl
+  // @codekit-prepend "plugins/owl.carousel.js";
 
   function htmlVideo() {
     videojs("demo_video", {
@@ -138,41 +49,6 @@
       }, 1000);
       return false;
     });
-  }
-
-  function donutChart() {
-    var doughnutData = [
-      {
-        value: 324,
-        color:"#5e98e3",
-        highlight: "#424753",
-        label: "Completed"
-      },
-      {
-        value: 34,
-        color: "#59d0bd",
-        highlight: "#424753",
-        label: "In backlog"
-      },
-      {
-        value: 20,
-        color: "#e8e9ec",
-        highlight: "#424753",
-        label: "Without ticket"
-      }
-    ];
-    window.onload = function(){
-      var c = document.getElementById("chart-area");
-      if (c != null) {
-        var ctx = c.getContext("2d");
-        window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {
-          responsive : true,
-          percentageInnerCutout : 80
-        });
-      } else {
-        return false
-      }
-    };
   }
 
   function videoModal() {
@@ -237,13 +113,33 @@
       }.bind(this));
     });
 
-    $('.instagram-quote').each(function () {
+    $('.instagram-quotes').each(function () {
       $.getJSON('//wms-api.herokuapp.com/suflyka/instagram/feed?callback=?', function(data) {
-        var arr = data.data[0].caption.text.split(/\n/);
-        var quote = arr[0].replace(/^\s*\"|\"\s*$/g, '');
-        var cite = arr[1].replace(/^-\s*|\s*/g, '');
-        $('.ig-quote').text(quote);
-        $('.ig-quote-footer').text(cite);
+        var quotes = data.data;
+        var fullcaption, thequote, quote, cite, template;
+        $.each(quotes, function(i, item) {
+          fullcaption = item.caption.text.replace(/^\s*|\s*$/g, '');
+          thequote = fullcaption.split(/\n/);
+          if (thequote.length == 2) {
+            quote = thequote[0].replace(/^\s*\"|\"\s*$/g, '');
+            cite = thequote[1].replace(/^-\s*|\s*/g, '');
+            template = $('<div class="blockquote-inner item"><p class="ig-quote">' + quote + '</p><footer class="ig-quote-footer">' + cite + '</footer></div>');
+          }
+          $('.instagram-quotes').append(template);
+        });
+
+        // owl
+        $('.instagram-quotes').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: false,
+          dots: false,
+          items: 1,
+          autoplay: true,
+          autoplayTimeout: 10000,
+          autoplaySpeed: 1500
+        })
+
         $(this).addClass('loaded');
       }.bind(this));
     });
