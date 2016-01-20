@@ -33,7 +33,7 @@ html(lang='en')
     meta(name='theme-color', content='#ffffff')
 
     //- stylesheet
-    link(rel='stylesheet', href='css/site.min.css')
+    link(rel='stylesheet', href='/css/site.min.css')
   body
   
     //
@@ -47,7 +47,8 @@ html(lang='en')
     nav.navbar.navbar-dark.bg-inverse.bg-inverse-custom.navbar-fixed-top
       .container
         a.navbar-brand(href='/')
-          img(src="img/sbh-white.svg", alt="", style="width: 120px;")
+          //- img(src="/img/sbh.svg", alt="", style="width: 120px;")
+          img(src="/img/sbh-horizontal.svg", alt="", style="width: 230px;")
           span.sr-only Suflyka by Hafiz Hamidun
 
     //
@@ -56,9 +57,9 @@ html(lang='en')
     header.jumbotron.text-xs-center.center-vertically(role='banner')
       .container
 
-        .suflyka-by-hh.m-t-8.m-b-8
+        .suflyka-by-hh.m-t-5.m-b-5.p-l-1.p-r-1
           h1.display-3
-            img(src="img/logo-kerawang-tagline2.svg", alt="", style="width: 100%; max-width: 480px;")
+            img(src="/img/logo-kerawang-tagline2.svg", alt="", style="width: 100%; max-width: 480px;")
             span.sr-only Suflyka by Hafiz Hamidun
 
       
@@ -90,7 +91,7 @@ html(lang='en')
           .col-md-10
             .media
               .media-left
-                img(src="img/logo-yellow.svg", alt="", style="height: 38px;")
+                img(src="/img/logo-yellow.svg", alt="", style="height: 38px;")
               small.media-body.media-bottom
                 span.fade-50 © Suflyka 2016
                 br
@@ -100,5 +101,4 @@ html(lang='en')
                   |  at 
                   b Arteffects International
 
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
-    script(src='js/site.min.js')
+    script(src='/js/site.min.js')

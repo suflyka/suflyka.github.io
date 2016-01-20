@@ -2017,6 +2017,17 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 0
 		},
+	"\/~source\/js\/plugins\/jquery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.js",
+		"outputAbbreviatedPath": "\/~source\/js\/plugins\/jquery.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
 	"\/~source\/js\/plugins\/jquery.placeholder.js": {
 		"fileType": 64,
 		"ignore": 1,

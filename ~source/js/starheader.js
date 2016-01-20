@@ -1,10 +1,10 @@
-(function() {
+(function($) {
 
   var width, height, canvas, ctx, points, target, animateHeader = true;
 
   // Main
 
-  if ($('body').hasClass('desktop')) {
+  if (!('ontouchstart' in window)) {
     initHeader();
     initAnimation();
     addListeners();
@@ -82,10 +82,10 @@
   // Event handling
   function addListeners() {
     if (!('ontouchstart' in window)) {
-      window.addEventListener('mousemove', mouseMove);
+      $(window).on('mousemove', mouseMove);
     }
-    window.addEventListener('scroll', scrollCheck);
-    window.addEventListener('resize', resize);
+    $(window).on('scroll', scrollCheck);
+    $(window).on('resize', resize);
   }
 
   function mouseMove(e) {
@@ -110,10 +110,6 @@
   function resize() {
     initHeader();
     initAnimation();
-    // width = window.innerWidth;
-    // height = window.innerHeight;
-    // canvas.width = width;
-    // canvas.height = height;
   }
 
   // animation
@@ -197,4 +193,4 @@
     return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
   }
 
-})();
+})(jQuery);

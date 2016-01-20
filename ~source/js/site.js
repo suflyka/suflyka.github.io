@@ -1,6 +1,9 @@
 (function ($) {
   "use strict";
 
+  // jQuery
+  // @codekit-prepend "plugins/jquery.js";
+
   // Bootstrap JS
   // @codekit-prepend "bootstrap/util.js";
   // @codekit-prepend "bootstrap/carousel.js";
@@ -22,28 +25,6 @@
 
   // Donut Chart
   // @ codekit-prepend "plugins/chart.js";
-
-  // Set environment vars
-  function setUserOS() {
-    var OSName = "";
-    if (navigator.appVersion.indexOf("Win") != -1) OSName = "windows";
-    if (navigator.appVersion.indexOf("Mac") != -1) OSName = "mac";
-    if (navigator.appVersion.indexOf("X11") != -1) OSName = "unix";
-    if (navigator.appVersion.indexOf("Linux") != -1) OSName = "linux";
-
-    $('body').addClass(OSName);
-  }
-
-  function setUserAgent() {
-    if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
-      $('body').addClass('mobile');
-    } else {
-      $('body').addClass('desktop');
-      if (navigator.userAgent.match(/MSIE 9.0/)) {
-        $('body').addClass('ie9');
-      }
-    }
-  }
 
   function onScrollAnimations() {
     $('.wp-1').waypoint(function() {
@@ -306,9 +287,7 @@
   }
 
   function init() {
-    setUserOS();
     setBgImage();
-    setUserAgent();
     // onScrollAnimations();
     // inputPlaceholders();
     // navMobileCollapse();
