@@ -537,15 +537,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/js\/site.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -2061,6 +2052,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/~source\/js\/plugins\/flickity.pkgd.min.js",
 		"outputAbbreviatedPath": "\/~source\/js\/plugins\/flickity.pkgd.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 0
+		},
+	"\/~source\/js\/plugins\/handlebars-v4.0.5.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~source\/js\/plugins\/handlebars-v4.0.5.js",
+		"outputAbbreviatedPath": "\/~source\/js\/plugins\/handlebars-v4.0.5.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,

@@ -1419,7 +1419,7 @@ $linkedin: #0077b5;
 // Quotes
 
 section.section-quotes {
-  .blockquote {
+  .blockquote-instagram {
     position: relative;
     font-size: 1.5em;
     line-height: 1.5;
@@ -1429,6 +1429,12 @@ section.section-quotes {
     padding: 2.5em 0 2em;
     background: linear-gradient(to bottom, rgba(#663fb5, .25) 0%, rgba(#663fb5, .15) 100%);
     // overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+    &.loaded {
+      opacity: 1;
+    }
 
     &:before {
       content: "\"";
@@ -1442,21 +1448,46 @@ section.section-quotes {
 
     .blockquote-inner {
       padding: 0 2em;
+
+      .ig-quote-footer {
+        font-family: "Dosis", $font-family-base;
+        font-size: .8em;
+        font-weight: 500;
+        letter-spacing: .2em;
+        text-transform: lowercase;
+        color: #fff;
+
+        &:before {
+          content: "~";
+        }
+
+        a {
+          color: #fff;
+          opacity: 0;
+        }
+      }
     }
 
-    .ig-quote {
+    &:hover {
+      .blockquote-inner .ig-quote-footer a {
+        opacity: 1;
+      }
     }
+  }
+}
 
-    .ig-quote-footer {
-      font-family: "Dosis", $font-family-base;
-      font-size: .8em;
-      font-weight: 500;
-      letter-spacing: .2em;
-      text-transform: lowercase;
-      color: #fff;
+section.section-instagram {
+  .instagram-pics {
+    .ig-pic {
+      overflow: hidden;
 
-      &:before {
-        content: "~";
+      img {
+        width: 100%;
+        transition: all .3s ease;
+      }
+
+      a:hover {
+        opacity: .8;
       }
     }
   }

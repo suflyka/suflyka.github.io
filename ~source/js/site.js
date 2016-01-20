@@ -110,25 +110,32 @@
       }.bind(this));
     });
 
-    $('.instagram-quotes').each(function () {
+    $('.blockquote-instagram').each(function () {
       $.getJSON('//wms-api.herokuapp.com/suflyka/instagram/feed?callback=?', function(data) {
         var quotes = data.data;
         var fullcaption, thequote, quote, cite, template;
         $.each(quotes, function(i, item) {
           fullcaption = item.caption.text.replace(/^\s*|\s*$/g, '');
           thequote = fullcaption.split(/\n/);
-          if (thequote.length == 2) {
+          if (thequote.length === 2) { // is a quote
             quote = thequote[0].replace(/^\s*\"|\"\s*$/g, '');
             cite = thequote[1].replace(/^-\s*|\s*/g, '');
-            template = $('<div class="blockquote-inner item"><p class="ig-quote">' + quote + '</p><footer class="ig-quote-footer">' + cite + '</footer></div>');
+
+            template = $('<div class="blockquote-inner item"><p class="ig-quote">' + quote + '</p><footer class="ig-quote-footer">' + cite + '&nbsp;<a href="' + item.link + '"><i class="fa fa-external-link-square"></i></a></footer></div>');
+
+            $('.instagram-quotes').append(template);
           }
-          $('.instagram-quotes').append(template);
+
+          // var imgurl = item.images.standard_resolution.url;
+          // var templatepic = $('<div class="item ig-pic"><a href="' + item.link + '"><img src="' + imgurl + '" alt=""></a></div>');
+          // $('.instagram-pics').append(templatepic);
+
         });
 
         // owl
         $('.instagram-quotes').owlCarousel({
           loop: true,
-          margin: 10,
+          margin: 0,
           nav: false,
           dots: false,
           items: 1,
@@ -136,6 +143,20 @@
           autoplayTimeout: 10000,
           autoplaySpeed: 1500
         })
+        // $('.instagram-pics').owlCarousel({
+        //   loop: true,
+        //   margin: 15,
+        //   nav: false,
+        //   dots: false,
+        //   autoplay: true,
+        //   autoplayTimeout: 10000,
+        //   autoplaySpeed: 1500,
+        //   responsive: {
+        //     0: { items: 1 },
+        //     544: { items: 2 },
+        //     768: { items: 3 },
+        //   }
+        // })
 
         $(this).addClass('loaded');
       }.bind(this));
