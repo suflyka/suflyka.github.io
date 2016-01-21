@@ -1426,7 +1426,6 @@ section.section-quotes {
     border: 3px solid $suflyka-fg;
     // border-radius: .5em;
     color: $suflyka-fg;
-    padding: 2.5em 0 2em;
     background: linear-gradient(to bottom, rgba(#663fb5, .25) 0%, rgba(#663fb5, .15) 100%);
     // overflow: hidden;
     opacity: 0;
@@ -1447,7 +1446,7 @@ section.section-quotes {
     }
 
     .blockquote-inner {
-      padding: 0 2em;
+      padding: 2.5em 2em 2em;
 
       .ig-quote-footer {
         font-family: "Dosis", $font-family-base;
